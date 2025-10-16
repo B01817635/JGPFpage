@@ -14,3 +14,8 @@ function roll(imgElement){
     let face = Math.floor(Math.random() * 6)
     imgElement.src = faces[face].src;
 }
+
+function roll2(imgElement){
+    let face = Math.floor(Math.random() * 6)
+    imgElement.src = faces[face].src;
+}

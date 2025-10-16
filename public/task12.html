@@ -9,8 +9,8 @@
 <body onload="preload()">
     <h1>Roll a Die</h1>
 
-    <img id="dice" src="images/dice-1.png" alt="dice">
+    <img id="dice" src="images/dice-1.png" alt="dice"> <span> <img id="dice2" src="images/dice-1.png" alt="dice"></span>
     <br><br>
-    <button type="button" onclick="roll(document.getElementById('dice'))">Roll</button>
+    <button type="button" onclick="roll(document.getElementById('dice'), roll2(document.getElementById('dice2')))">Roll</button>
 </body>
 </html>
