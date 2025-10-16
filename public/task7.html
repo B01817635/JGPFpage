@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="JS/task6.JS"></script>
+    <title>Task 4-6</title>
+</head>
+<body>
+    <h1>Shopping Calculator</h1>
+
+    <form action="">
+        <fieldset>
+            <table>
+            <tr>
+                <th>Item</th>
+                <th>Price</th>
+            </tr>
+            <tr>
+                <td>milk</td>
+                <td><input type="number" name="entry" id="e1" value="0.90"></td>
+            </tr>
+            <tr>
+                <td>bread</td>
+                <td><input type="number" name="entry" id="e2" value="0.85"></td>
+            </tr>
+            <tr>
+                <td>cold meat</td>
+                <td><input type="number" name="entry" id="e3" value="1.75"></td>
+            </tr>
+            <tr>
+                <td>eggs</td>
+                <td><input type="number" name="entry" id="e4" value="1.10"></td>
+            </tr>
+            <tr>
+                <td>cake</td>
+                <td><input type="number" name="entry" id="e5" value="1.50"></td>
+            </tr>
+            <tr>
+                <td>carrots</td>
+                <td><input type="number" name="entry" id="e6" value="0.70"></td>
+            </tr>
+            <tr>
+                <td>potatoes</td>
+                <td><input type="number" name="entry" id="e7" value="1.50"></td>
+            </tr>
+            <tr>
+                <td>cheese</td>
+                <td><input type="number" name="entry" id="e8" value="2.60"></td>
+            </tr>
+            <tr>
+                <td>fish</td>
+                <td><input type="number" name="entry" id="e9" value="3.25"></td>
+            </tr>
+            <tr>
+                <td>bacon</td>
+                <td><input type="number" name="entry" id="e10" value="1.60"></td>
+            </tr>
+            </table>
+            <p>Discount</p>
+            <input type="number" name="discount" id="d1" value="40">
+            <br><br>
+            <input type="button" value="calculate" onclick="totup(this.form)">
+        </fieldset>
+    </form>
+    <p>Total Cost <span id="totalled"></span></p>
+</body>
+</html>
